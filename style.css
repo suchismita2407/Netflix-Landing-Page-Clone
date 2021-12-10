@@ -1,0 +1,309 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  background: black;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+* {
+  scroll-behavior: smooth;
+}
+
+.fullhead {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("Images-Videos/bg head.jpg");
+
+  height: 765px;
+  border: 7px solid transparent;
+  border-bottom-color: #222;
+}
+
+nav {
+  background: transparent;
+}
+.container {
+  display: flex;
+}
+
+#logo {
+  margin-top: auto;
+  margin-left: auto;
+  background: none;
+  width: 180px;
+  height: 120px;
+  text-align: left;
+}
+
+.list {
+  margin-left: auto;
+  margin-top: 10px;
+  margin-right: 40px;
+}
+
+nav ul {
+  margin-top: 10%;
+  list-style-type: none;
+  display: flex;
+}
+
+nav ul li {
+  padding: 0 8px;
+  background: none;
+}
+
+#lt1,
+#lt2 {
+  font-size: 15px;
+  background: none;
+  color: white;
+  width: 100px;
+  height: 30px;
+  text-align: center;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#lt1 {
+  border: 2px solid;
+}
+
+#lt2 {
+  border: 2px solid transparent;
+  background: red;
+}
+
+.head {
+  margin-top: -2%;
+  /* height: 50%; */
+}
+
+.content {
+  text-align: center;
+}
+#first {
+  font-size: 69px;
+}
+
+#second {
+  margin-top: -2%;
+  font-size: 30px;
+}
+
+.form {
+  text-align: center;
+}
+
+.collect {
+  justify-content: center;
+  display: flex;
+  bottom: 10%;
+}
+
+#third {
+  font-size: 20px;
+}
+
+#mail {
+  font-size: 33px;
+  width: 600px;
+  height: 50px;
+}
+
+#submit {
+  font-size: 30px;
+  width: 300px;
+  height: 59px;
+  background: red;
+  color: white;
+  cursor: pointer;
+}
+
+
+.perk1 {
+  display: flex;
+  border: 7px solid transparent;
+  border-bottom-color: #222;
+}
+
+.cont {
+  color: white;
+}
+
+.animation {
+  margin-top: -6%;
+  display: flex;
+  margin-right: 78px;
+}
+.video {
+  margin-left: -600px;
+  margin-top: 100px;
+}
+.cont {
+  margin-left: 180px;
+  margin-top: 100px;
+  align-items: justify;
+  margin-right: 130px;
+}
+
+.perk2 {
+  display: flex;
+  border: 7px solid transparent;
+  border-bottom-color: #222;
+  height: 450px;
+}
+.illus {
+  display: block;
+  margin-left: 150px;
+  margin-top: 20px;
+}
+
+.total {
+  background: black;
+  display: flex;
+  border: 1px solid gray;
+  border-radius: 10px;
+  width: 380px;
+  height: 100px;
+  margin-left: 80px;
+  margin-top: -120px;
+  position: absolute;
+}
+
+.box {
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.gif {
+  margin-left: 30px;
+}
+
+.cont1 {
+  margin-right: 250px;
+  margin-left: 200px;
+  margin-top: 100px;
+}
+
+.perk3 {
+  display: flex;
+  border: 7px solid transparent;
+  border-bottom-color: #222;
+}
+
+.cont2 {
+  margin-left: 200px;
+  margin-right: 100px;
+  margin-top: 100px;
+}
+.illus1 {
+  display: flex;
+  margin-left: 70px;
+  margin-right: 130px;
+}
+
+.vdo {
+  margin-left: -520px;
+  margin-top: 10px;
+}
+
+.v {
+  width: 400px;
+  height: 260px;
+}
+
+.perk4 {
+  display: flex;
+  border: 7px solid transparent;
+  border-bottom-color: #222;
+  height: 480px;
+}
+
+.cont3 {
+  margin-right: 200px;
+  margin-left: 150px;
+  margin-top: 100px;
+}
+
+.illus3 {
+  margin-left: 100px;
+}
+.faq {
+  text-align: center;
+  border: 7px solid transparent;
+  border-bottom-color: #222;
+  height: 850px;
+}
+.faq h1 {
+  font-size: 40px;
+}
+.list-questions {
+  list-style-type: none;
+}
+
+.list-questions li {
+  padding-bottom: 10px;
+}
+
+.bt {
+  background: #222;
+  border: 2px solid transparent;
+  color: white;
+  width: 800px;
+  height: 80px;
+  text-align: left;
+  font-size: 30px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.footer {
+  margin-left: 300px;
+  margin-bottom: 40px;
+  color: grey;
+}
+
+.footer p {
+  margin-left: 33px;
+}
+
+.table {
+  display: flex;
+}
+
+.table ul {
+  list-style-type: none;
+  color: grey;
+}
+
+.table ul li {
+  padding-bottom: 7px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.l2,
+.l3,
+.l4 {
+  padding-left: 45px;
+}
+
+.end {
+  padding-top: 15px;
+  margin-bottom: 25px;
+}
+
+#end {
+  margin-left: 3%;
+  background: none;
+  font-size: 25px;
+  color: white;
+  width: 150px;
+  height: 40px;
+  color: white;
+  border: 2px solid transparent grey;
+  border-radius: 5px;
+}
